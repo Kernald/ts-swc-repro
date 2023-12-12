@@ -1,0 +1,7 @@
+build --enable_runfiles
+
+common --experimental_strict_action_env
+
+build --@aspect_rules_ts//ts:skipLibCheck=always
+fetch --@aspect_rules_ts//ts:skipLibCheck=always
+query --@aspect_rules_ts//ts:skipLibCheck=always

@@ -1,0 +1,8 @@
+.ijwb/
+
+bazel-bin
+bazel-out
+bazel-testlogs
+bazel-ts-swc-repro
+
+node_modules/
